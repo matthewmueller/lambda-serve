@@ -12,7 +12,7 @@ npm install lambda-serve
 ## Koa example
 
 ```js
-const Server = require('lambda-serve')
+const Serve = require('lambda-serve')
 const koa = require('koa')
 const app = koa()
 
@@ -23,18 +23,10 @@ const app = koa()
 app.proxy = true
 
 /**
- * Get the app
- */
-
-const server = Server(app.callback())
-
-/**
  * Run
  */
 
-exports.default = (event, context) => {
-  server(event, context)
-}
+exports.default = Serve(app.callback())
 
 /**
  * Respond to requests
