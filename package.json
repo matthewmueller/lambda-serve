@@ -1,5 +1,5 @@
 {
-  "name": "lambda-server",
+  "name": "lambda-serve",
   "version": "1.0.0",
   "description": "Use koa or express on lambda!",
   "keywords": [
@@ -12,7 +12,7 @@
   "author": "Matthew Mueller <mattmuelle@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/MatthewMueller/lambda-server.git"
+    "url": "git://github.com/MatthewMueller/lambda-serve.git"
   },
   "dependencies": {
     "aws-serverless-express": "^1.1.3"

@@ -1,18 +1,18 @@
 
-# lambda-server
+# lambda-serve
 
   Use koa or express on lambda! This is just a simple wrapper around [aws-serverless-express](https://github.com/awslabs/aws-serverless-express)
 
 ## Installation
 
 ```js
-npm install lambda-server
+npm install lambda-serve
 ```
 
 ## Koa example
 
 ```js
-const Server = require('lambda-server')
+const Server = require('lambda-serve')
 const koa = require('koa')
 const app = koa()
 
