@@ -15,7 +15,11 @@
     "url": "git://github.com/MatthewMueller/lambda-serve.git"
   },
   "dependencies": {
-    "aws-serverless-express": "^1.1.3"
+    "aws-serverless-express": "^1.2.0"
   },
-  "main": "index"
+  "main": "index",
+  "devDependencies": {
+    "mocha": "3.1.2",
+    "roo": "2.0.1"
+  }
 }
